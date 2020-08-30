@@ -11,7 +11,7 @@ from sklearn.metrics import precision_recall_fscore_support
 LABEL_INDEX = 614
 TEST_VECTORS_PATH = 'test_vectors.pkl'
 CLASSES_PATH = 'TSCD_classes_for_test.pkl'
-RESULTS_PATH = 'C:\\Users\\orhai\\PycharmProjects\\SpeakersSeparator\\First_Paper\\TSCPD\\Git_Upload\\Results\\'
+RESULTS_PATH = 'Results\\'
 
 
 test_vectors = pd.read_pickle(TEST_VECTORS_PATH)
