@@ -1,13 +1,13 @@
 import pandas as pd
 
 WINDOW_SIZE = 6
-RAW_DATA_PATH = "C:\\Users\\orhai\\PycharmProjects\\SpeakersSeparator\\First_Paper\\Data\\Or_info.csv"
+RAW_DATA_PATH = "your-raw-data-path.csv"
 PICKLE_PATH = "data_to_vectors_conversion_df.pkl"
 
 df = pd.read_csv(RAW_DATA_PATH)
 df = df.dropna()
 
-id_list = sorted(list(set(df["ID"])))[0:2]
+id_list = sorted(list(set(df["ID"])))
 
 data_to_convert_df = pd.DataFrame(columns=['ID', 'First_Word', 'Second_Word', 'Third_Word',
                                            'Fourth_Word', 'Fifth_Word', 'Sixth_Word',
