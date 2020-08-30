@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import torch.nn as nn
 from torch import optim
-from First_Paper.TSCPD.Git_Upload.nn_definition import TextualSpeakerChangeDetection
+from nn_definition import TextualSpeakerChangeDetection
 
 
 CLASSES = 2
