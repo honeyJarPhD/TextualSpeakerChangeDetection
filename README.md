@@ -34,8 +34,8 @@ Citations:
 Our paper is cited as:
 
 @article{anidjar2020thousand,
-  title={A Thousand Words are Worth More Than One Recording: NLP Based Speaker Change Point Detection},
-  author={Anidjar, Or Haim and Hajaj, Chen and Dvir, Amit and Gilad, Issachar},
-  journal={arXiv preprint arXiv:2006.01206},
-  year={2020}
+        title={A Thousand Words are Worth More Than One Recording: NLP Based Speaker Change Point Detection},
+        author={Anidjar, Or Haim and Hajaj, Chen and Dvir, Amit and Gilad, Issachar},
+        journal={arXiv preprint arXiv:2006.01206},
+        year={2020}
 }
