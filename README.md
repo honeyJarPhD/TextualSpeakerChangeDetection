@@ -26,3 +26,16 @@ Every K steps (a pre-defined number), a check-point is saved to the "Models" fol
 4. Testing - Run test_models.py.
 The testing process reads a set of models that were created by the train.py script, 
 and then calculates Precision, Recall and F1-Score measures for each model. 
+
+
+*************************************
+Citations:
+*************************************
+Our paper is cited as:
+
+@article{anidjar2020thousand,
+  title={A Thousand Words are Worth More Than One Recording: NLP Based Speaker Change Point Detection},
+  author={Anidjar, Or Haim and Hajaj, Chen and Dvir, Amit and Gilad, Issachar},
+  journal={arXiv preprint arXiv:2006.01206},
+  year={2020}
+}
